@@ -1,33 +1,33 @@
 # 代理补充列表
 
 # 域名后缀匹配
-DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-SUFFIX,hitun.io
+host-suffix,qichiyu.com,PROXY
+host-suffix,hitun.io,PROXY
 
 # 域名关键字匹配
-DOMAIN-KEYWORD,1e100
+host-keyword,1e100,PROXY
 
 # IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,10.147.18.0/24,no-resolve
+ip-cidr,142.171.133.131/32,PROXY,no-resolve
+ip-cidr,103.115.43.2/32,PROXY,no-resolve
+ip-cidr,10.147.18.0/24,PROXY,no-resolve
 
 # 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
+host-suffix,dns.google,PROXY
+host-suffix,1dot1dot1dot1.cloudflare-dns.com,PROXY
+host-suffix,dot.sb,PROXY
+host-suffix,dns.umbrella.com,PROXY
+host-suffix,dns.quad9.net,PROXY
+host-suffix,dns.google,PROXY
+host-suffix,cloudflare-dns.com,PROXY
+host-suffix,doh.dns.sb,PROXY
+host-suffix,doh.opendns.com,PROXY
+host-suffix,dns.quad9.net,PROXY
+host-suffix,hk-hkg.doh.sb,PROXY
+ip-cidr,8.8.8.8/32,PROXY,no-resolve
+ip-cidr,8.8.4.4/32,PROXY,no-resolve
+ip-cidr,1.1.1.1/32,PROXY,no-resolve
+ip-cidr,1.0.0.1/32,PROXY,no-resolve
+ip-cidr,185.222.222.222/32,PROXY,no-resolve
+ip-cidr,208.67.222.222/32,PROXY,no-resolve
+ip-cidr,208.67.220.220/32,PROXY,no-resolve
